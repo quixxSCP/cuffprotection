@@ -11,7 +11,7 @@ namespace CuffProtection
         public override string Name => "CuffProtection";
         public override string Author => "quix";
         public override Version Version => new Version(1, 4, 0);
-        public override Version RequiredExiledVersion => new Version(9, 0, 0);
+        public override Version RequiredExiledVersion => new Version(9, 8, 1);
 
         private static readonly Dictionary<Player, Player> CufferRegistry = new Dictionary<Player, Player>();
 
